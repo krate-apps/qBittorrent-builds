@@ -11,7 +11,7 @@ Workflow `.github/workflows/build.yaml` runs **only** on **`workflow_dispatch`**
 - Builds via GitHub Actions (manual trigger)
 - Debian packages that install qBittorrent in `/opt/Krate/vendor/qbittorrent-nox_${VERSION}_lt_${LIBTORRENT_VERSION}`
 - CI uses a **single reference image**; **one `.deb` per matrix row**, intended for recent **Debian and Ubuntu** on **amd64**; packaging follows the static-build approach from **[userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static)**
-- Version matrix: **5.2.0** with libtorrent **1.2.20** and **2.0.12**; **5.1.4** with libtorrent **2.0.11** and **1.2.20**
+- Version matrix: **5.2.3** with libtorrent **1.2.20** and **2.0.14**; **5.1.4** with libtorrent **2.0.11** and **1.2.20**
 - Automated metadata generation
 - Package signing and verification
 
@@ -19,7 +19,7 @@ Workflow `.github/workflows/build.yaml` runs **only** on **`workflow_dispatch`**
 
 | qBittorrent | libtorrent (Rasterbar) |
 | ----------- | ---------------------- |
-| 5.2.0       | 1.2.20, 2.0.12         |
+| 5.2.3       | 1.2.20, 2.0.14         |
 | 5.1.4       | 2.0.11, 1.2.20         |
 
 ## Build Process

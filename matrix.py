@@ -8,8 +8,8 @@ def create_matrix() -> Dict:
 
     # (qbittorrent_version, libtorrent_version)
     builds: List[Tuple[str, str]] = [
-        ("5.2.0", "1.2.20"),
-        ("5.2.0", "2.0.12"),
+        ("5.2.3", "1.2.20"),
+        ("5.2.3", "2.0.14"),
         ("5.1.4", "2.0.11"),
         ("5.1.4", "1.2.20"),
     ]

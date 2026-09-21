@@ -12,7 +12,7 @@ on:
         type: choice
         options:
           - "all"
-          - "5.2.0"
+          - "5.2.3"
           - "5.1.4"
 
 jobs:
@@ -200,7 +200,7 @@ jobs:
 
     strategy:
       matrix:
-        version: ["5.2.0", "5.1.4"]
+        version: ["5.2.3", "5.1.4"]
       fail-fast: false
 
     steps:
